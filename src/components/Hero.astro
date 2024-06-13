@@ -1,0 +1,37 @@
+---
+import Button from "./Button.astro";
+---
+
+<section
+  class="pt-20"
+  id="inicio"
+>
+  <div class="m-auto flex justify-center">
+    <div class="w-96 pt-20">
+      <h2 class="text-4xl pb-11">
+        ¡Descubre el café de una forma única y para todos!
+      </h2>
+
+      <p class="pb-9">
+        Próximamente en CDMX. <br /> Pre-regístrate para tener noticias sobre nuestra
+        gran apertura y recibir promociones exclusivas!
+      </p>
+
+      <Button text="Pre-registro" />
+    </div>
+
+    <img
+      src="images/hero.jpeg"
+      alt="hero"
+      width={722}
+      class="relative top-0"
+    />
+  </div>
+</section>
+
+<style>
+  p {
+    font-family: "Stacion";
+    font-weight: 400;
+  }
+</style>

@@ -1,0 +1,40 @@
+---
+import Button from "./Button.astro";
+
+import Cart from "../../public/shopping-cart.svg";
+---
+
+<header
+  class="bg-[#2E418E] py-3 flex justify-evenly fixed items-center w-full z-50"
+>
+  <img
+    src="/logo.svg"
+    alt="logo"
+    class="w-[155px] h-12"
+  />
+
+  <nav class="flex flex-row gap-x-10">
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#menu">Menú</a>
+    <a href="#tiendas">Tiendas</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <Button
+    text="Ordenar"
+    icon="cart"
+  />
+
+  <div class="flex gap-3">
+    <img
+      src="/tiktok.svg"
+      alt="tiktok"
+    />
+    <img
+      src="/instagram.svg"
+      alt="instagram"
+    />
+  </div>
+</header>
