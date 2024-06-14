@@ -1,0 +1,19 @@
+---
+interface Props {
+icon: string;
+title:string;
+text: string;
+}
+
+const { icon,title,text  } = Astro.props;
+---
+
+<div class="w-72 h-80">
+
+<img src={icon} alt={title}>
+
+<h2>
+{title}
+</h2>
+<p>{text}</p>
+</div>

@@ -1,7 +1,6 @@
 ---
-import Button from "./Button.astro";
-
-import Cart from "../../public/shopping-cart.svg";
+import { Image } from "astro:assets";
+import Burger from "./Burger.astro";
 ---
 
 <header
@@ -13,7 +12,7 @@ import Cart from "../../public/shopping-cart.svg";
     class="w-[155px] h-12"
   />
 
-  <nav class="flex flex-row gap-x-10">
+  <nav class="hidden lg:flex  flex-row gap-x-10 ">
     <a href="#inicio">Inicio</a>
     <a href="#nosotros">Nosotros</a>
     <a href="#menu">Menú</a>
@@ -22,12 +21,15 @@ import Cart from "../../public/shopping-cart.svg";
     <a href="#contacto">Contacto</a>
   </nav>
 
-  <Button
-    text="Ordenar"
-    icon="cart"
-  />
 
-  <div class="flex gap-3">
+<a href="#menu" class="flex gap-1 p-2 bg-orange-500 rounded-md items-center">
+<p class="text-sm">Ordenar</p> 
+<img src="/public/shopping-cart.svg" alt="cart" width={20}>
+</a>
+
+  
+
+  <div class="hidden md:flex  gap-5  ">
     <img
       src="/tiktok.svg"
       alt="tiktok"
@@ -37,4 +39,8 @@ import Cart from "../../public/shopping-cart.svg";
       alt="instagram"
     />
   </div>
+<div class="flex lg:hidden"  >
+<Burger/>
+</div>
+    
 </header>
