@@ -1,15 +1,33 @@
 ---
 import Pilar from "./Pilar.astro";
+
+import momo from "/momo.svg";
 ---
 
-<section class="bg-blue-200 flex flex-col w-full justify-center">
-  <h3
-    class="text-blue-800 pt-7 font-[Stacion] font-thin">
-    Nuestros pilares en MOMO Coffee
-  </h3>
-  <div class="grid sm:flex grid-cols-1 md:grid-cols-3  w-full ">
-  <Pilar  icon="dadasd" title="dadad" text="adsaasasd"/>
-  <Pilar  icon="dadasd" title="dadad" text="adsaasasd"/>
-  <Pilar  icon="dadasd" title="dadad" text="adsaasasd"/>
+<section
+  class="bg-blue-200 flex flex-col w-full justify-center"
+  id="nosotros"
+>
+  <div class="m-auto">
+    <h3 class="text-blue-800 pt-7 font-[Stacion] font-thin">
+      Nuestros pilares en MOMO Coffee
+    </h3>
+    <div class="grid sm:flex gap-40 grid-cols-1 md:grid-cols-3 w-full">
+      <Pilar
+        iconUrl={momo}
+        title="Asequibles"
+        text="Café de calidad asequible para todos. Nos comprometemos a ofrecer productos excelentes a precios justos."
+      />
+      <Pilar
+        iconUrl={momo}
+        title="Curiosos"
+        text="Innovamos en cada aspecto para brindarte una experiencia excepcional donde cada producto cuenta una historia única."
+      />
+      <Pilar
+        iconUrl={momo}
+        title="Colaborativos"
+        text="Colaboramos con tostadores y agricultores comprometidos con prácticas sostenibles y condiciones laborales justas."
+      />
+    </div>
   </div>
 </section>

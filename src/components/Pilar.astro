@@ -1,19 +1,32 @@
 ---
-interface Props {
-icon: string;
-title:string;
-text: string;
-}
+import type { ImageMetadata } from "astro";
+import { getImage } from "astro:assets";
+import { Image } from "astro:assets";
 
-const { icon,title,text  } = Astro.props;
+interface Props {
+  iconUrl: string | ImageMetadata;
+  title: string;
+  text: string;
+}
+const { iconUrl, title, text } = Astro.props;
+
+const Img = await getImage({
+  src: iconUrl,
+});
 ---
 
 <div class="w-72 h-80">
+  <Image
+    width={80}
+    height={80}
+    src={Img.src}
+    alt={title}
+  />
 
-<img src={icon} alt={title}>
-
-<h2>
-{title}
-</h2>
-<p>{text}</p>
+  <h2 class="text-blue-800 text-center font-bold text-2xl">
+    {title}
+  </h2>
+  <p class="text-blue-800 font-[Stacion] font-extralight content-start">
+    {text}
+  </p>
 </div>
