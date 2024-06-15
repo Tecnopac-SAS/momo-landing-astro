@@ -3,11 +3,11 @@ import Button from "./Button.astro";
 ---
 
 <section
-  class="pt-20"
+  class="pt-20 w-full m-auto"
   id="inicio"
 >
-  <div class="m-auto flex justify-center">
-    <div class="w-96 pt-20">
+  <div class="m-auto justify-center md:flex gap-4">
+    <div class="w-96 py-20 px-4">
       <h2 class="text-4xl pb-11">
         ¡Descubre el café de una forma única y para todos!
       </h2>
@@ -24,7 +24,7 @@ import Button from "./Button.astro";
       src="images/hero.jpeg"
       alt="hero"
       width={722}
-      class="relative top-0"
+      class="hidden lg:flex max-w-[1840]"
     />
   </div>
 </section>

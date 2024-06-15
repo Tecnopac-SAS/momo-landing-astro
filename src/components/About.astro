@@ -1,7 +1,37 @@
-<section class="bg-blue-200 h-96">
-  <h3
-    class="text-blue-800 border-b border-blue-800 w-[80%] font-[Stacion] font-thin "
-  >
-    Nuestros pilares en MOMO Coffee
-  </h3>
+---
+import Pilar from "./Pilar.astro";
+
+import momo from "../../public/momo.svg";
+import manita from "../../public/manita.svg";
+import corazon from "../../public/corazon.svg";
+---
+
+<section
+  class="bg-blue-200 flex flex-col w-full justify-center"
+  id="nosotros"
+>
+  <div class="m-auto">
+    <h3
+      class="text-blue-800 pt-7 mb-2 font-[Stacion] font-thin md:ml-3 border-b border-b-blue-800"
+    >
+      Nuestros pilares en MOMO Coffee
+    </h3>
+    <div class="grid gap-5 grid-cols-1 md:grid-cols-3 w-full md:gap-10 p-1">
+      <Pilar
+        iconUrl={momo}
+        title="Asequibles"
+        text="Café de calidad asequible para todos. Nos comprometemos a ofrecer productos excelentes a precios justos."
+      />
+      <Pilar
+        iconUrl={manita}
+        title="Curiosos"
+        text="Innovamos en cada aspecto para brindarte una experiencia excepcional donde cada producto cuenta una historia única."
+      />
+      <Pilar
+        iconUrl={corazon}
+        title="Colaborativos"
+        text="Colaboramos con tostadores y agricultores comprometidos con prácticas sostenibles y condiciones laborales justas."
+      />
+    </div>
+  </div>
 </section>

@@ -1,11 +1,10 @@
 ---
-import Button from "./Button.astro";
-
-import Cart from "../../public/shopping-cart.svg";
+import { Image } from "astro:assets";
+import Burger from "./Burger.astro";
 ---
 
 <header
-  class="bg-[#2E418E] py-3 flex justify-evenly fixed items-center w-full z-50"
+  class="bg-[#2E418E] py-3 flex justify-evenly fixed items-center z-50 w-full"
 >
   <img
     src="/logo.svg"
@@ -13,28 +12,165 @@ import Cart from "../../public/shopping-cart.svg";
     class="w-[155px] h-12"
   />
 
-  <nav class="flex flex-row gap-x-10">
-    <a href="#inicio">Inicio</a>
-    <a href="#nosotros">Nosotros</a>
-    <a href="#menu">Menú</a>
-    <a href="#tiendas">Tiendas</a>
-    <a href="#experiencia">Experiencia</a>
-    <a href="#contacto">Contacto</a>
+  <nav class="hidden lg:flex flex-row gap-x-10">
+    <a
+      href="#inicio"
+      class="text-white hover:text-gray-300"
+      >Inicio</a
+    >
+    <a
+      href="#nosotros"
+      class="text-white hover:text-gray-300"
+      >Nosotros</a
+    >
+    <a
+      href="#menu"
+      class="text-white hover:text-gray-300"
+      >Menú</a
+    >
+    <a
+      href="#tiendas"
+      class="text-white hover:text-gray-300"
+      >Tiendas</a
+    >
+    <a
+      href="#experiencia"
+      class="text-white hover:text-gray-300"
+      >Experiencia</a
+    >
+    <a
+      href="#contacto"
+      class="text-white hover:text-gray-300"
+      >Contacto</a
+    >
   </nav>
 
-  <Button
-    text="Ordenar"
-    icon="cart"
-  />
+  <a
+    href="#menu"
+    class="flex gap-1 p-2 bg-orange-500 rounded-md items-center text-white hover:bg-orange-600"
+  >
+    <p class="text-sm">Ordenar</p>
+    <img
+      src="/shopping-cart.svg"
+      alt="cart"
+      width="20"
+    />
+  </a>
 
-  <div class="flex gap-3">
+  <div class="hidden lg:flex gap-5">
     <img
       src="/tiktok.svg"
       alt="tiktok"
+      class="h-6 w-6"
     />
     <img
       src="/instagram.svg"
       alt="instagram"
+      class="h-6 w-6"
     />
   </div>
+
+  <div class="flex lg:hidden">
+    <button
+      class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-gray-500 hover:border-gray-500"
+      id="menu-toggle"
+    >
+      <svg
+        class="fill-current h-6 w-6"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>Menu</title>
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+      </svg>
+    </button>
+  </div>
 </header>
+
+<div
+  id="mobile-menu"
+  class="slide-down-enter lg:hidden pt-14 fixed w-full z-49"
+>
+  <nav class="flex flex-col bg-[#2E418E] py-2 text-2xl">
+    <a
+      href="#inicio"
+      class="p-2 text-white hover:text-gray-300 menu-item"
+      >Inicio</a
+    >
+    <a
+      href="#nosotros"
+      class="p-2 text-white hover:text-gray-300 menu-item"
+      >Nosotros</a
+    >
+    <a
+      href="#menu"
+      class="p-2 text-white hover:text-gray-300 menu-item"
+      >Menú</a
+    >
+    <a
+      href="#tiendas"
+      class="p-2 text-white hover:text-gray-300 menu-item"
+      >Tiendas</a
+    >
+    <a
+      href="#experiencia"
+      class="p-2 text-white hover:text-gray-300 menu-item"
+      >Experiencia</a
+    >
+    <a
+      href="#contacto"
+      class="p-2 text-white hover:text-gray-300 menu-item"
+      >Contacto</a
+    >
+  </nav>
+</div>
+
+<style>
+  /* Add custom transition for sliding down */
+  .slide-down-enter {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  .slide-down-enter-active {
+    max-height: 500px; /* Adjust according to the menu content height */
+  }
+  .slide-down-leave {
+    max-height: 500px; /* Adjust according to the menu content height */
+    overflow: hidden;
+    transition: max-height 0.3s ease-in;
+  }
+  .slide-down-leave-active {
+    max-height: 0;
+  }
+</style>
+<script>
+  document.getElementById("menu-toggle").addEventListener("click", function () {
+    var menu = document.getElementById("mobile-menu");
+    if (menu.classList.contains("slide-down-enter")) {
+      menu.classList.remove("slide-down-enter");
+      menu.classList.add("slide-down-enter-active");
+      setTimeout(() => {
+        menu.classList.remove("slide-down-enter-active");
+      }, 300);
+    } else {
+      menu.classList.add("slide-down-leave");
+      setTimeout(() => {
+        menu.classList.remove("slide-down-leave");
+        menu.classList.add("slide-down-enter");
+      }, 300);
+    }
+  });
+
+  // Add event listeners to each menu item to hide the menu on click
+  document.querySelectorAll(".menu-item").forEach(function (item) {
+    item.addEventListener("click", function () {
+      var menu = document.getElementById("mobile-menu");
+      menu.classList.add("slide-down-leave");
+      setTimeout(() => {
+        menu.classList.remove("slide-down-leave");
+        menu.classList.add("slide-down-enter");
+      }, 300);
+    });
+  });
+</script>
