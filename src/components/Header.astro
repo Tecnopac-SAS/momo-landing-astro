@@ -145,31 +145,33 @@ import { Image } from "astro:assets";
   }
 </style>
 <script>
-  document.getElementById("menu-toggle").addEventListener("click", function () {
-    var menu = document.getElementById("mobile-menu");
-    if (menu.classList.contains("slide-down-enter")) {
-      menu.classList.remove("slide-down-enter");
-      menu.classList.add("slide-down-enter-active");
-      setTimeout(() => {
-        menu.classList.remove("slide-down-enter-active");
-      }, 300);
-    } else {
-      menu.classList.add("slide-down-leave");
-      setTimeout(() => {
-        menu.classList.remove("slide-down-leave");
-        menu.classList.add("slide-down-enter");
-      }, 300);
-    }
-  });
+  document
+    .getElementById("menu-toggle")
+    ?.addEventListener("click", function () {
+      var menu = document.getElementById("mobile-menu");
+      if (menu?.classList.contains("slide-down-enter")) {
+        menu.classList.remove("slide-down-enter");
+        menu.classList.add("slide-down-enter-active");
+        setTimeout(() => {
+          menu?.classList.remove("slide-down-enter-active");
+        }, 300);
+      } else {
+        menu?.classList.add("slide-down-leave");
+        setTimeout(() => {
+          menu?.classList.remove("slide-down-leave");
+          menu?.classList.add("slide-down-enter");
+        }, 300);
+      }
+    });
 
   // Add event listeners to each menu item to hide the menu on click
   document.querySelectorAll(".menu-item").forEach(function (item) {
     item.addEventListener("click", function () {
       var menu = document.getElementById("mobile-menu");
-      menu.classList.add("slide-down-leave");
+      menu?.classList.add("slide-down-leave");
       setTimeout(() => {
-        menu.classList.remove("slide-down-leave");
-        menu.classList.add("slide-down-enter");
+        menu?.classList.remove("slide-down-leave");
+        menu?.classList.add("slide-down-enter");
       }, 300);
     });
   });
