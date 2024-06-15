@@ -6,5 +6,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   site: 'https://miketpac.github.io',
-  base: '/dist',
+  base: '/momo-landing-astro',
 });
