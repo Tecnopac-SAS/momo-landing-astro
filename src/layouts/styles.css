@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Stacion";
+  src: url("/fonts/light/Stacion-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #2e418e;
+  color: #edebdf;
+  font-family: "Red Hat Display Variable", sans-serif;
+  font-weight: 600;
+}
