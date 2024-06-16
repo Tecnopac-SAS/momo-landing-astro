@@ -1,16 +1,22 @@
 ---
 import Category from "../components/CategoryButton.astro";
+import Product from "../components/ProductCard.astro";
+
+import test from "../../public/images/test.png";
 ---
 
-<section class="bg-blue-200">
-  <div class="m-auto py-8">
+<section
+  class="bg-blue-200 w-full justify-center"
+  id="menu"
+>
+  <div class="m-auto py-8 px-10 md:pl-10">
     <h3
-      class="text-blue-800 pt-10 mb-6 font-[Stacion] font-thin md:ml-3 border-b border-b-blue-800"
+      class="text-blue-800 pt-10 mb-6 font-[Stacion] font-thin md:ml-3 border-b border-b-blue-800 m-auto"
     >
       Nuestro Menú
     </h3>
 
-    <nav>
+    <nav class="flex flex-wrap justify-evenly gap-2">
       <Category name="Café" />
       <Category name="Té" />
       <Category name="Café con Té" />
@@ -20,5 +26,89 @@ import Category from "../components/CategoryButton.astro";
       <Category name="Combos" />
       <Category name="Nuestra Tienda" />
     </nav>
+
+    <div class="flex flex-wrap justify-center gap-5 md:justify-between py-10">
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+      <Product
+        imageUrl={test}
+        name="Rosa latte"
+        description="Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!"
+      />
+    </div>
+
+    <div class="w-full flex">
+      <button class="bg-orange-500 px-4 py-2 rounded-2xl m-auto"
+        >Ordena en la App</button
+      >
+    </div>
   </div>
 </section>

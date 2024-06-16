@@ -1,0 +1,33 @@
+---
+import type { ImageMetadata } from "astro";
+import { getImage } from "astro:assets";
+import { Image } from "astro:assets";
+
+interface Props {
+  imageUrl: string | ImageMetadata;
+  name: string;
+  description: string;
+}
+const { imageUrl, name, description } = Astro.props;
+
+const Img = await getImage({
+  src: imageUrl,
+});
+---
+
+<div class="w-72 h-96">
+  <Image
+    width={270}
+    height={270}
+    src={Img.src}
+    alt={name}
+    class="rounded-md shadow-2xl"
+  />
+
+  <div>
+    <h4 class="text-lg text-blue-800 font-bold pb-2">{name}</h4>
+    <p class="text-black text-lg">
+      {description}
+    </p>
+  </div>
+</div>
