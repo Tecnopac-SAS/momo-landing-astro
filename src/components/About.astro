@@ -1,6 +1,7 @@
 ---
 import Pilar from "./Pilar.astro";
-
+import { Image } from "astro:assets";
+import phone from "../../public/images/about.svg";
 import momo from "../../public/momo.svg";
 import manita from "../../public/manita.svg";
 import corazon from "../../public/corazon.svg";
@@ -10,7 +11,7 @@ import corazon from "../../public/corazon.svg";
   class="bg-blue-200 flex flex-col w-full justify-center"
   id="nosotros"
 >
-  <div class="m-auto">
+  <div class="m-auto pb-8">
     <h3
       class="text-blue-800 pt-7 mb-2 font-[Stacion] font-thin md:ml-3 border-b border-b-blue-800"
     >
@@ -35,18 +36,20 @@ import corazon from "../../public/corazon.svg";
     </div>
   </div>
 </section>
-<section>
-  <div class="m-auto">
+<section class="flex justify-center md:h-screen">
+  <div class="px-10 md:pl-40 pb-8">
     <h3
-      class="text-white pt-7 mb-2 font-[Stacion] font-thin md:ml-3 border-b border-b--white"
+      class="text-white pt-7 mb-7 font-[Stacion] font-thin md:ml-3 border-b border-b-white m-auto w-[50%]"
     >
       Acerca de nosotros
     </h3>
 
-    <div>
-      <div class="text">
-        <h3>MOMO Coffee es la revolución del café de especialidad:</h3>
-        <p>
+    <div class="md:flex-row lg:flex">
+      <div class="">
+        <h3 class="text-2xl md:m-auto pb-2 w-fit">
+          MOMO Coffee es la revolución del café de especialidad:
+        </h3>
+        <p class="content-start font-[Stacion] font-thin pb-5">
           Fusionamos tecnología y tradición para ofrecer una experiencia única
           en cada taza. Nos integramos de manera fluida en tu rutina diaria y te
           brindamos un servicio excepcional, con una entrega inmediata y
@@ -54,11 +57,49 @@ import corazon from "../../public/corazon.svg";
         </p>
 
         <div>
-          <div>mision</div>
-          <div>vision</div>
+          <div class="flex py-8">
+            <img
+              src="/vaso.svg"
+              alt="vaso-momo"
+              class="h-20"
+            />
+
+            <div>
+              <h2 class="text-2xl font-[Stacion] font-normal pb-2">
+                Nuestra misión
+              </h2>
+              <p class="max-h-22 text-sm font-thin">
+                Hacemos que el café de especialidad sea asequible para todos,
+                utilizando tecnología y prácticas sostenibles para impactar
+                positivamente en nuestras comunidades.
+              </p>
+            </div>
+          </div>
+          <div class="flex">
+            <img
+              src="/vaso.svg"
+              alt="vaso-momo"
+            />
+            <div>
+              <h2 class="text-2xl font-[Stacion] font-normal pb-2">
+                Nuestra visión
+              </h2>
+              <p class="max-h-22 text-sm font-thin">
+                En el 2030, lideramos la innovación y la sostenibilidad,
+                brindando a cada persona la oportunidad de disfrutar del mejor
+                café, generando un impacto global positivo.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="img"></div>
+      <Image
+        src={phone}
+        width={750}
+        height={808}
+        alt="phone"
+        class="hidden md:inline-block lg:block"
+      />
     </div>
   </div>
 </section>
