@@ -1,0 +1,87 @@
+---
+
+---
+
+<div class="bg-white m-auto w-80 h-[554px] p-5 rounded-lg mb-100">
+  <img
+    src="/images/hero.jpeg"
+    alt="store"
+    class="rounded-lg"
+  />
+
+  <h3 class="text-xl uppercase text-black font-bold text-center">Narvarte</h3>
+  <span class="text-green-400 text-sm text-center block">Abierta</span>
+
+  <div>
+    <div class="flex justify-center gap-x-2">
+      <img
+        src="/locate.svg"
+        alt="locación"
+      />
+      <span class="text-black font-thin">1km</span>
+    </div>
+    <p class="text-black font-thin text-center">
+      Dr. José María Vértiz 867, Col. Narvarte Oriente, Benito Juárez CDMX
+    </p>
+
+    <button class="accordion flex justify-center">
+      <img
+        src="/clock.svg"
+        alt="horarios"
+      />Horarios
+      <img
+        src="/arrow-up.svg"
+        alt="mas"
+      />
+    </button>
+    <div class="panel">
+      <ol>
+        <li>1</li>
+        <li>2</li>
+      </ol>
+    </div>
+
+    <button>Ir ahora</button>
+  </div>
+</div>
+
+<style>
+  .accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+</style>
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+      /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+      this.classList.toggle("active");
+
+      /* Toggle between hiding and showing the active panel */
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+</script>
