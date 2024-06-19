@@ -1,5 +1,33 @@
 ---
 import { Image } from "astro:assets";
+
+const navigation = [
+  {
+    name: "Inicio",
+    href: "#inicio",
+  },
+  {
+    name: "Nosotros",
+    href: "#nosotros",
+  },
+  {
+    name: "Menú",
+    href: "#menu",
+  },
+  {
+    name: "Tiendas",
+    href: "#tiendas",
+  },
+
+  {
+    name: "Experiencia",
+    href: "#experiencia",
+  },
+  {
+    name: "Contacto",
+    href: "#contacto",
+  },
+];
 ---
 
 <header
@@ -13,36 +41,7 @@ import { Image } from "astro:assets";
   />
 
   <nav class="hidden lg:flex flex-row gap-x-10">
-    <a
-      href="#inicio"
-      class="text-white hover:text-gray-300"
-      >Inicio</a
-    >
-    <a
-      href="#nosotros"
-      class="text-white hover:text-gray-300"
-      >Nosotros</a
-    >
-    <a
-      href="#menu"
-      class="text-white hover:text-gray-300"
-      >Menú</a
-    >
-    <a
-      href="#tiendas"
-      class="text-white hover:text-gray-300"
-      >Tiendas</a
-    >
-    <a
-      href="#experiencia"
-      class="text-white hover:text-gray-300"
-      >Experiencia</a
-    >
-    <a
-      href="#contacto"
-      class="text-white hover:text-gray-300"
-      >Contacto</a
-    >
+    {navigation.map((item) => <a href={item.href}>{item.name}</a>)}
   </nav>
 
   <a
@@ -95,37 +94,17 @@ import { Image } from "astro:assets";
   id="mobile-menu"
   class="slide-down-enter lg:hidden pt-14 fixed w-full z-49"
 >
-  <nav class="flex flex-col bg-[#2E418E] py-2 text-2xl rounded-md">
-    <a
-      href="#inicio"
-      class="p-2 text-white hover:text-gray-300 menu-item"
-      >Inicio</a
-    >
-    <a
-      href="#nosotros"
-      class="p-2 text-white hover:text-gray-300 menu-item"
-      >Nosotros</a
-    >
-    <a
-      href="#menu"
-      class="p-2 text-white hover:text-gray-300 menu-item"
-      >Menú</a
-    >
-    <a
-      href="#tiendas"
-      class="p-2 text-white hover:text-gray-300 menu-item"
-      >Tiendas</a
-    >
-    <a
-      href="#experiencia"
-      class="p-2 text-white hover:text-gray-300 menu-item"
-      >Experiencia</a
-    >
-    <a
-      href="#contacto"
-      class="p-2 text-white hover:text-gray-300 menu-item"
-      >Contacto</a
-    >
+  <nav class="flex gap-2 flex-col bg-[#2E418E] py-2 text-2xl rounded-md">
+    {
+      navigation.map((item) => (
+        <a
+          href={item.href}
+          class="p-4 text-white hover:text-gray-300 menu-item"
+        >
+          {item.name}
+        </a>
+      ))
+    }
   </nav>
 </div>
 
