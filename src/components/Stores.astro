@@ -3,27 +3,36 @@ import StoreCard from "../components/StoreCard.astro";
 ---
 
 <section
-  class="bg-blue-200 flex flex-col w-full justify-center"
-  id="nosotros"
+  class="bg-blue-200 flex flex-col w-full justify-center h-fit"
+  id="tiendas"
 >
-  <div class="pb-8 pl-10">
+  <div class="pb-6 pl-10 h-fit">
     <h3
       class="text-blue-800 pt-7 mb-2 font-[Stacion] font-thin md:ml-3 border-b border-b-blue-800 w-[80%] m-auto"
     >
       Nuestras Tiendas
     </h3>
   </div>
-
+  <p class="text-blue-800 text-center font-[Stacion] font-normal text-lg">
+    Encuentra tu café MOMO más cercano. <br /> Explora nuestras ubicaciones
+  </p>
   <div
     id="default-carousel"
-    class=""
-    data-carousel="slide"
+    class="pt-12"
+    data-carousel="static"
   >
     <!-- Carousel wrapper -->
-    <div class="relative h-[700px] overflow-hidden rounded-lg">
+    <div class="relative h-[650px] overflow-hidden rounded-lg">
       <!-- Item 1 -->
       <div
-        class="hidden duration-700 ease-in-out"
+        class="hidden duration-500 ease-in-out"
+        data-carousel-item
+      >
+        <StoreCard />
+      </div>
+      <!-- Item 2 -->
+      <div
+        class="hidden duration-500 ease-in-out"
         data-carousel-item
       >
         <StoreCard />
