@@ -1,0 +1,75 @@
+---
+import { Image } from "astro:assets";
+
+const navigation = [
+  {
+    name: "Inicio",
+    href: "#inicio",
+  },
+  {
+    name: "Nosotros",
+    href: "#nosotros",
+  },
+  {
+    name: "Menú",
+    href: "#menu",
+  },
+  {
+    name: "Tiendas",
+    href: "#tiendas",
+  },
+
+  {
+    name: "Experiencia",
+    href: "#experiencia",
+  },
+  {
+    name: "Contacto",
+    href: "#contacto",
+  },
+];
+---
+
+<footer class="py-3 md:flex gap-3 justify-evenly items-center w-full h-52">
+  <div class="flex justify-center">
+    <Image
+      src="/logo.svg"
+      alt="logo"
+      width={155}
+      height={48}
+    />
+  </div>
+
+  <nav class="flex flex-col pl-5 py-5">
+    {navigation.map((item) => <a href={item.href}>{item.name}</a>)}
+  </nav>
+
+  <div class="flex flex-col pl-5">
+    <a href="">Política de privacidad</a>
+    <a href="">Términos y condiciones</a>
+    <a href="">Politica de cookies</a>
+  </div>
+  <div class="flex p-5 justify-center gap-4">
+    <a href="#">
+      <img
+        src="/tiktok.svg"
+        alt="tiktok"
+        class="h-6 w-6"
+      />
+    </a>
+    <a href="#">
+      <img
+        src="/instagram.svg"
+        alt="instagram"
+        class="h-6 w-6"
+      />
+    </a>
+    <a href="#">
+      <img
+        src="/linkedin.svg"
+        alt="linkedin"
+        class="h-6 w-6"
+      />
+    </a>
+  </div>
+</footer>

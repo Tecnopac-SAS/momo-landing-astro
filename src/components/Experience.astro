@@ -1,16 +1,89 @@
 ---
-
+import tablet from "../../public/images/tablet.svg";
+import manita from "../../public/images/manita.svg";
+import { Image } from "astro:assets";
 ---
 
 <section
-  class="bg-blue-900 flex flex-col w-full justify-center"
-  id="nosotros"
+  class="flex justify-center"
+  id="experiencia"
 >
-  <div class="m-auto md:m-0 pb-8">
+  <div class="px-20 md:pl-40 pb-8">
     <h3
-      class="pt-7 mb-2 font-[Stacion] font-thin ml-3 border-b border-white w-[90%]"
+      class="text-white pt-7 mb-7 font-[Stacion] font-thin md:ml-3 border-b border-b-white m-auto"
     >
-      Nuestra Experiencia
+      Nuestras Experiencia
     </h3>
+
+    <div class="md:flex-row md:pl-20 lg:flex">
+      <di
+        v
+        class="h-fit w-fit"
+      >
+        <h3 class="text-2xl pl-4 pb-2">
+          Vive la experiencia MOMO <br /> Coffee
+        </h3>
+        <p class="content-start font-[Stacion] font-thin pb-5 w-[500px] pl-4">
+          Fusionamos tecnología y tradición para ofrecer una experiencia única
+          en cada taza. Nos integramos de manera fluida en tu rutina diaria y te
+          brindamos un servicio excepcional, con una entrega inmediata y
+          priorizando la calidad de nuestros productos.
+        </p>
+
+        <div>
+          <div class="flex py-8">
+            <img
+              src="/vaso.svg"
+              alt="vaso-momo"
+              class="h-20"
+            />
+
+            <div>
+              <h2 class="text-2xl font-[Stacion] font-normal pb-2">
+                Sin filas
+              </h2>
+              <p class="max-h-22 text-sm font-thin">
+                Ordena de manera digital y <br /> sin largas filas.
+              </p>
+            </div>
+          </div>
+          <div class="flex">
+            <img
+              src="/bag.svg"
+              alt="bolsa-momo"
+            />
+            <div>
+              <h2 class="text-2xl font-[Stacion] font-normal pb-2">
+                Rápido y Seguro
+              </h2>
+              <p class="max-h-22 text-sm font-thin">
+                Tu primera vez en MOMO? Ordena de manera fácil y rápida <br /> a
+                través de nuestros kioskos en tienda.
+              </p>
+            </div>
+          </div>
+          <div class="flex py-8">
+            <img
+              src="/manita.svg"
+              alt="app"
+            />
+            <div>
+              <h2 class="text-2xl font-[Stacion] font-normal pb-2">MOMO App</h2>
+              <p class="max-h-22 text-sm font-thin">
+                ¿Ya eres cliente frecuente? Olvídate de las filas y ordena <br
+                /> desde nuestra app… Incluso antes de llegar a nuestra tienda.
+              </p>
+            </div>
+          </div>
+        </div>
+      </di>
+      <Image
+        src={tablet}
+        width={520}
+        height={587}
+        alt="phone"
+        class="hidden lg:block pl-10"
+      />
+    </div>
   </div>
 </section>

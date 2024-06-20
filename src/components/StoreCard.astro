@@ -2,7 +2,7 @@
 
 ---
 
-<div class="bg-[#EDEBDF] m-auto w-80 h-fit p-5 rounded-lg">
+<div class="bg-[#EDEBDF] m-auto w-80 p-5 rounded-lg">
   <img
     src="/images/hero.jpeg"
     alt="store"
@@ -12,7 +12,7 @@
   <h3 class="text-xl uppercase text-black font-bold text-center">Narvarte</h3>
   <span class="text-green-400 text-sm text-center block">Abierta</span>
 
-  <div>
+  <>
     <div class="flex justify-center gap-x-2">
       <img
         src="/locate.svg"
@@ -24,73 +24,35 @@
       Dr. José María Vértiz 867, Col. Narvarte Oriente, Benito Juárez CDMX
     </p>
 
-    <button class="accordion flex justify-center">
-      <img
-        src="/clock.svg"
-        alt="horarios"
-      />
-      <span class="text-black px-2">Horarios</span>
-      <img
-        src="/arrow-down.svg"
-        alt="mas"
-      />
-    </button>
-    <div class="panel">
+    <details class="cursor-pointer">
+      <summary>
+        <div class="flex justify-center">
+          <img
+            src="/clock.svg"
+            alt="horarios"
+          />
+          <span class="text-black px-2">Horarios</span>
+          <img
+            src="/arrow-down.svg"
+            alt="mas"
+          />
+        </div>
+      </summary>
       <ol
-        class="flex text-[#777672] flex-col justify-center w-fit m-auto gap-y-1 text-sm"
+        class="flex text-[#777672] flex-col justify-center w-fit m-auto gap-y-1 pt-2 text-sm"
       >
-        <li>Lunes 8 am - 7 p.m</li>
-        <li>Martes 8 a.m - 7 p.m</li>
-        <li>Miercoles 8 a.m - 7 pm</li>
-        <li>Jueves 8 a.m - 7 p.m</li>
-        <li>Viernes 8 a.m - 7 p.m</li>
-        <li>Sabado 8 a.m - 6 p.m</li>
-        <li>Domingo 9 a.m - 6 p.m</li>
+        <li class="hover:text-orange-500">Lunes 8 am - 7 p.m</li>
+        <li class="hover:text-orange-500">Martes 8 a.m - 7 p.m</li>
+        <li class="hover:text-orange-500">Miercoles 8 a.m - 7 pm</li>
+        <li class="hover:text-orange-500">Jueves 8 a.m - 7 p.m</li>
+        <li class="hover:text-orange-500">Viernes 8 a.m - 7 p.m</li>
+        <li class="hover:text-orange-500">Sabado 8 a.m - 6 p.m</li>
+        <li class="hover:text-orange-500">Domingo 9 a.m - 6 p.m</li>
       </ol>
-    </div>
+    </details>
 
     <div class="flex justify-center pt-2">
       <button class="bg-orange-500 px-4 py-2 rounded-lg">Ir ahora</button>
     </div>
-  </div>
+  </>
 </div>
-
-<style>
-  .accordion {
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
-
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-
-  /* Style the accordion panel. Note: hidden by default */
-  .panel {
-    display: none;
-    overflow: hidden;
-  }
-</style>
-<script lang="ts">
-  var acc = document.getElementsByClassName("accordion");
-  var i;
-
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function () {
-      /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
-      this.classList.toggle("active");
-
-      /* Toggle between hiding and showing the active panel */
-      var panel = this.nextElementSibling;
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
-      } else {
-        panel.style.display = "block";
-      }
-    });
-  }
-</script>
