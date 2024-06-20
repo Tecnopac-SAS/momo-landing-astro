@@ -16,10 +16,7 @@ import { Image } from "astro:assets";
     </h3>
 
     <div class="md:flex-row md:pl-20 lg:flex">
-      <di
-        v
-        class="h-fit w-fit"
-      >
+      <div class="h-fit w-fit">
         <h3 class="text-2xl pl-4 pb-2">
           Vive la experiencia MOMO <br /> Coffee
         </h3>
@@ -76,7 +73,7 @@ import { Image } from "astro:assets";
             </div>
           </div>
         </div>
-      </di>
+      </div>
       <Image
         src={tablet}
         width={520}
@@ -84,6 +81,11 @@ import { Image } from "astro:assets";
         alt="phone"
         class="hidden lg:block pl-10"
       />
+    </div>
+    <div class="w-full flex">
+      <button class="bg-orange-500 px-5 py-2 my-5 rounded-2xl m-auto"
+        >¡Ordena ahora!</button
+      >
     </div>
   </div>
 </section>
