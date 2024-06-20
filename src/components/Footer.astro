@@ -41,13 +41,34 @@ const navigation = [
   </div>
 
   <nav class="flex flex-col pl-5 py-5">
-    {navigation.map((item) => <a href={item.href}>{item.name}</a>)}
+    {
+      navigation.map((item) => (
+        <a
+          class="hover:underline"
+          href={item.href}
+        >
+          {item.name}
+        </a>
+      ))
+    }
   </nav>
 
   <div class="flex flex-col pl-5">
-    <a href="">Política de privacidad</a>
-    <a href="">Términos y condiciones</a>
-    <a href="">Politica de cookies</a>
+    <a
+      class="hover:underline"
+      href="#"
+      >Política de privacidad</a
+    >
+    <a
+      class="hover:underline"
+      href="#"
+      >Términos y condiciones</a
+    >
+    <a
+      class="hover:underline"
+      href="#"
+      >Politica de cookies</a
+    >
   </div>
   <div class="flex p-5 justify-center gap-4">
     <a href="#">
