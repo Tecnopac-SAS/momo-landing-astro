@@ -28,20 +28,19 @@ import data from "../MOCK_DATA.json";
     </nav>
 
     <div class="flex flex-wrap justify-center gap-5 py-10">
-
-      {data.map((item) => 
-        <Product
-        imageUrl={test}
-        name={item.name}
-        description={item.description}
-      />
-      )}
-
-    
+      {
+        data.map((item) => (
+          <Product
+            imageUrl={test}
+            name={item.name}
+            description={item.description}
+          />
+        ))
+      }
     </div>
 
     <div class="w-full flex">
-      <button class="bg-orange-500 px-4 py-2 rounded-2xl m-auto"
+      <button class="bg-[#FF6010] px-4 py-2 rounded-2xl m-auto"
         >Ordena en la App</button
       >
     </div>
