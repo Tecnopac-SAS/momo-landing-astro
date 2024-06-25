@@ -19,17 +19,20 @@ import Button from "./Button.astro";
 
       <Button text="Pre-registro" />
     </div>
-
     <img
       src="images/hero.jpeg"
       alt="hero"
       width={722}
-      class="hidden lg:flex"
+      class="hero hidden lg:flex"
     />
   </div>
 </section>
 
 <style>
+  .hero {
+    clip-path: circle(100.8% at 100% 53%);
+  }
+
   p {
     font-family: "Stacion";
     font-weight: 400;
