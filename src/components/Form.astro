@@ -134,13 +134,20 @@
       ></path>
     </svg>
     <textarea
+      rows="9"
       class="flex rounded-md border border-input bg-[#2E418E] px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 pl-12 w-full min-h-[100px]"
       placeholder="Mensaje"
     ></textarea>
   </div>
   <div class="relative">
+    <label
+      class="label"
+      for="uploadFile"
+      >Seleccionar archivo</label
+    >
     <input
       type="file"
+      id="uploadFile"
       class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-[#FF6010] focus:outline-none"
     />
   </div>
@@ -159,7 +166,8 @@
           class="underline"
           rel="ugc"
           >Términos y Condiciones</a
-        > y nuestra <a
+        > y nuestra <br />
+        <a
           href="#"
           class="underline"
           rel="ugc"
@@ -176,3 +184,17 @@
     >
   </div>
 </form>
+
+<style>
+  input[type="file"] {
+    display: none;
+  }
+
+  .label {
+    display: inline-block;
+    color: white;
+    background: #ff6010;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+</style>
