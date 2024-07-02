@@ -1,0 +1,19 @@
+---
+import Product from "./ProductCard.astro";
+import test from "../../public/images/test.png";
+import data from "../MOCK_DATA.json";
+---
+
+<div class="flex flex-wrap justify-center gap-5 py-10">
+  {
+    data
+      .filter((item) => item.category === "otras bebidas")
+      .map((filteredItem) => (
+        <Product
+          imageUrl={test}
+          name={filteredItem.name}
+          description={filteredItem.description}
+        />
+      ))
+  }
+</div>

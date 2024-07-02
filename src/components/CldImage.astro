@@ -1,0 +1,14 @@
+---
+interface Props {
+  src: string;
+  width: string;
+  height: string;
+  alt: string;
+}
+---
+
+<img
+  {...Astro.props}
+  loading="lazy"
+  class="rounded-md shadow-2xl"
+/>

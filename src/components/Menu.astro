@@ -1,8 +1,23 @@
 ---
-import Category from "../components/CategoryButton.astro";
-import Product from "../components/ProductCard.astro";
-import test from "../../public/images/test.png";
-import data from "../MOCK_DATA.json";
+import Cafe from "../components/Cafe.astro";
+import Te from "../components/Te.astro";
+import CafeConTe from "../components/CafeConTe.astro";
+import Especiales from "../components/Especiales.astro";
+import OtrasBebidas from "../components/OtrasBebidas.astro";
+import Alimentos from "../components/Alimentos.astro";
+import Combos from "../components/Combos.astro";
+import Tienda from "../components/Tienda.astro";
+
+const categories = [
+  { name: "Café", target: "cafe" },
+  { name: "Té", target: "te" },
+  { name: "Café con Té", target: "cafe-con-te" },
+  { name: "Especiales MOMO", target: "especiales" },
+  { name: "Otras Bebidas", target: "otras-bebidas" },
+  { name: "Alimentos", target: "alimentos" },
+  { name: "Combos", target: "combos" },
+  { name: "Nuestra Tienda", target: "tienda" },
+];
 ---
 
 <section
@@ -17,26 +32,65 @@ import data from "../MOCK_DATA.json";
     </h3>
 
     <nav class="flex flex-wrap justify-evenly gap-2">
-      <Category name="Café" />
-      <Category name="Té" />
-      <Category name="Café con Té" />
-      <Category name="Especiales MOMO" />
-      <Category name="Otras bebidas" />
-      <Category name="Alimentos" />
-      <Category name="Combos" />
-      <Category name="Nuestra Tienda" />
-    </nav>
-
-    <div class="flex flex-wrap justify-center gap-5 py-10">
       {
-        data.map((item) => (
-          <Product
-            imageUrl={test}
-            name={item.name}
-            description={item.description}
-          />
+        categories.map((item) => (
+          <button
+            class="w-28 h-20 border border-blue-800 rounded-lg text-blue-800 font-[Stacion] font-medium"
+            id={item.target}
+          >
+            {item.name}
+          </button>
         ))
       }
+    </nav>
+
+    <div
+      id="cafe"
+      class=""
+    >
+      <Cafe />
+    </div>
+    <div
+      id="te"
+      class="hidden"
+    >
+      <Te />
+    </div>
+    <div
+      id="cafe-con-te"
+      class="hidden"
+    >
+      <CafeConTe />
+    </div>
+    <div
+      id="especiales"
+      class="hidden"
+    >
+      <Especiales />
+    </div>
+    <div
+      id="otras-bebidas"
+      class="hidden"
+    >
+      <OtrasBebidas />
+    </div>
+    <div
+      id="alimentos"
+      class="hidden"
+    >
+      <Alimentos />
+    </div>
+    <div
+      id="combos"
+      class="hidden"
+    >
+      <Combos />
+    </div>
+    <div
+      id="tienda"
+      class="hidden"
+    >
+      <Tienda />
     </div>
 
     <div class="w-full flex">
@@ -46,3 +100,32 @@ import data from "../MOCK_DATA.json";
     </div>
   </div>
 </section>
+
+<style>
+  .hidden {
+    display: none;
+  }
+</style>
+
+<script>
+  const buttons = document.querySelectorAll("button[id]");
+  const sections = document.querySelectorAll("div[id]");
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      buttons.forEach((btn) => {
+        btn.classList.remove("bg-[#2E418E]", "text-white");
+        btn.classList.add("text-blue-800");
+      });
+
+      sections.forEach((section) => {
+        if (section.id === button.id) {
+          section.classList.remove("hidden");
+          button.classList.add("bg-[#2E418E]", "text-white");
+        } else {
+          section.classList.add("hidden");
+        }
+      });
+    });
+  });
+</script>
