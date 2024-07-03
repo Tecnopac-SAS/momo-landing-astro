@@ -1,5 +1,7 @@
 ---
 import Button from "./Button.astro";
+import { Image } from "astro:assets";
+import HeroImage from "../../public/images/hero.jpg";
 ---
 
 <section
@@ -19,10 +21,12 @@ import Button from "./Button.astro";
 
       <Button text="Pre-registro" />
     </div>
-    <img
-      src="images/hero.jpg"
+    <Image
+      loading="eager"
+      src={HeroImage}
       alt="hero"
-      width={722}
+      width={720}
+      height={722}
       class="hero hidden lg:flex"
     />
   </div>

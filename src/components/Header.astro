@@ -1,6 +1,5 @@
 ---
 import { Image } from "astro:assets";
-
 const navigation = [
   {
     name: "Inicio",
@@ -34,6 +33,7 @@ const navigation = [
   class="bg-[#2E418E] py-3 flex justify-evenly fixed items-center z-50 w-full"
 >
   <Image
+    loading="eager"
     src="/logo.svg"
     alt="logo"
     width={155}
@@ -74,7 +74,7 @@ const navigation = [
   </div>
 
   <div class="flex lg:hidden">
-    <button
+    <span
       class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-gray-500 hover:border-gray-500"
       id="menu-toggle"
     >
@@ -86,7 +86,7 @@ const navigation = [
         <title>Menu</title>
         <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
       </svg>
-    </button>
+    </span>
   </div>
 </header>
 

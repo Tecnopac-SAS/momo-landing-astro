@@ -40,7 +40,7 @@ const navigation = [
     />
   </div>
 
-  <nav class="flex flex-col pl-5 py-5">
+  <nav class="flex flex-col pl-5 py-5 items-center">
     {
       navigation.map((item) => (
         <a
@@ -53,7 +53,7 @@ const navigation = [
     }
   </nav>
 
-  <div class="flex flex-col pl-5">
+  <div class="flex flex-col pl-5 items-center">
     <a
       class="hover:underline"
       href="#"
@@ -73,6 +73,7 @@ const navigation = [
   <div class="flex p-5 justify-center gap-4">
     <a href="#">
       <img
+        loading="lazy"
         src="/tiktok.svg"
         alt="tiktok"
         class="h-6 w-6"
@@ -80,6 +81,7 @@ const navigation = [
     </a>
     <a href="#">
       <img
+        loading="lazy"
         src="/instagram.svg"
         alt="instagram"
         class="h-6 w-6"
@@ -87,6 +89,7 @@ const navigation = [
     </a>
     <a href="#">
       <img
+        loading="lazy"
         src="/linkedin.svg"
         alt="linkedin"
         class="h-6 w-6"

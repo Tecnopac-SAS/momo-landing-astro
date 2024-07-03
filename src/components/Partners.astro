@@ -1,16 +1,29 @@
+---
+import { Image } from "astro:assets";
+---
+
 <div>
   <h2 class="text-3xl flex justify-center py-4">Partners</h2>
 
   <div class="flex gap-x-4 items-center justify-around p-4">
-    <img
+    <Image
+      width={121}
+      height={70}
       src="/buna.svg"
+      loading="lazy"
       alt="buna"
     />
-    <img
+    <Image
+      width={156}
+      height={70}
+      loading="lazy"
       src="/saint.svg"
       alt="saint"
     />
-    <img
+    <Image
+      width={92}
+      height={90}
+      loading="lazy"
       src="/exploradores.svg"
       alt="exploradores de café"
     />

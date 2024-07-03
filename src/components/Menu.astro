@@ -101,15 +101,9 @@ const categories = [
   </div>
 </section>
 
-<style>
-  .hidden {
-    display: none;
-  }
-</style>
-
 <script>
-  const buttons = document.querySelectorAll("button[id]");
-  const sections = document.querySelectorAll("div[id]");
+  const buttons = document.querySelectorAll("button[id]:not(.menu-toggle)");
+  const sections = document.querySelectorAll("div[id]:not(#mobile-menu)");
 
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
