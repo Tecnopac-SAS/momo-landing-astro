@@ -1,12 +1,16 @@
 ---
 interface Props {
   text: string;
-  icon?: string;
 }
 
-const { text, icon } = Astro.props;
+const { text } = Astro.props;
 ---
 
 <button class="bg-[#FF6010] text-white h-12 rounded-2xl w-32"
-  >{text} {icon}</button
+  ><a
+    href="https://momocoffee.mx/"
+    target="_blank"
+    rel="noopener noreferer"
+    >{text}</a
+  ></button
 >

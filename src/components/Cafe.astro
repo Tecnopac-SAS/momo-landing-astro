@@ -1,7 +1,6 @@
 ---
-import Product from "../components/ProductCard.astro";
+import Product from "./ProductCard.tsx";
 import data from "../MOCK_DATA.json";
-import Test from "../../public/images/test.png";
 ---
 
 <div class="flex flex-wrap justify-center gap-5 py-10">
@@ -10,7 +9,7 @@ import Test from "../../public/images/test.png";
       .filter((item) => item.category === "cafe")
       .map((filteredItem) => (
         <Product
-          imageUrl={Test}
+          imageUrl={filteredItem.image}
           name={filteredItem.name}
           description={filteredItem.description}
         />

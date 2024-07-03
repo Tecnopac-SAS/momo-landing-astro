@@ -1,342 +1,344 @@
 [
     {
-        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/t_Thumbnail/v1719945512/Latte_caliente_Chocolatin_uca88u.jpg",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945510/Expresso_xn2g19.jpg",
+        "width": 270,
+        "height": 270,
         "name": "Expresso",
         "description": "Doble shot de nuestra mezcla especial MOMO ¡Para los puristas!",
         "category": "cafe"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945474/Americano_Croissant_h1v75r.jpg",
         "name": "Americano",
         "description": "Hecho al momento con doble shot de espresso",
         "category": "cafe"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945508/Flat_White_xsuwng.jpg",
         "name": "Flat White",
         "description": "Bebida a base de café con leche perfectamente cremada ¡Un must!",
         "category": "cafe"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945508/Flat_White_xsuwng.jpg",
         "name": "Capuccino",
         "description": "Bebida a base de café con leche espumada ¡Un Clásico!",
         "category": "cafe"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945508/Flat_White_xsuwng.jpg",
         "name": "Latte",
         "description": "Bebida a base de café con leche perfectamente cremada ¡Un must!",
         "category": "cafe"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945508/Flat_White_xsuwng.jpg",
         "name": "Mochaccino",
         "description": "Bebida a base de café con leche perfectamente cremada ¡Un must!",
         "category": "cafe"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945474/Americano_frio_Chocolatin_eefuaa.jpg",
         "name": "Americano frio",
         "description": "Bebida a base de espresso con hielos ¡El tradicional pero frío!",
         "category": "cafe"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload//c_crop,w_250,h_250,ar_1:1/c_crop,w_250,h_250,ar_1:1/v1719945505/Latte_frio_ewihy8.jpg",
         "name": "Latte frio",
         "description": "Bebida a base de espresso con leche ¡Perfecto para un día caluroso!",
         "category": "cafe"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/c_crop,w_250,h_250,ar_1:1/v1719945505/Matcha_latte_o0eit3.jpg",
         "name": "Matcha latte",
         "description": "Bebida a base de matcha con leche espumada ¡Bue ní-si-mo!",
         "category": "te"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945502/Chai_latte_ioq9sf.jpg",
         "name": "Chai latte",
         "description": "Bebida a base de leche con una mezcla de especias orientales ¡Una alternativa sin cafeína!",
         "category": "te"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945502/Dirty_Chai_krak7w.jpg",
         "name": "Dirty chai",
         "description": "Bebida a base de leche con un shot de espresso y una mezcla de especias orientales ¡Una mezcla de sabores!",
         "category": "te"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945501/Dirty_Matcha_hnboxc.jpg",
         "name": "Dirty matcha",
         "description": "Bebida a base de leche con una fusión de espresso y matcha ¡Para un boots extra de energía!",
         "category": "te"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945499/Matcha_latte_frio_s7a3zu.jpg",
         "name": "Matcha latte frio",
         "description": "Bebida a base de matcha con leche espumada ¡Disfrútalo frio!",
         "category": "te"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945498/Chai_latte_frio_cct86j.jpg",
         "name": "Chai latte frio",
         "description": "Bebida a base de leche con una mezcla de especias orientales ¡Disfrútalo frio!",
         "category": "te"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945497/Dirty_Chai_frio_wmzamq.jpg",
         "name": "Dirty chai frio",
         "description": "Bebida a base de leche con un shot de espresso y una mezcla de especias orientales ¡Disfrútalo frío!",
         "category": "te"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945501/Dirty_Matcha_hnboxc.jpg",
         "name": "Dirty Matcha frio",
         "description": "Bebida a base de leche con una fusión de espresso y matcha ¡Disfrútalo frío!",
         "category": "te"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945501/Dirty_Matcha_hnboxc.jpg",
         "name": "Dirty Matcha latte",
         "description": "Bebida de chocolate con macadamia",
         "category": "cafe con te"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
-        "name": "Dirty Matcha latte",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945502/Dirty_Chai_krak7w.jpg",
+        "name": "Dirty Chai latte",
         "description": "Bebida de chocolate con macadamia",
         "category": "cafe con te"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945495/Rose_latte_frio_gogwev.jpg",
         "name": "Rose latte",
         "description": "Bebida a base de espresso con leche y notas a petalos de rosa ¡Un apapacho!",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945495/Lavanda_latte_frio_wh2z7s.jpg",
         "name": "Lavanda latte",
         "description": "Bebida a basé de espresso con leche y un toque de lavanda. ¡Modo zen!",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945494/Ginger_latte_i8qted.jpg",
         "name": "Ginger latte",
         "description": "Bedida a base de espresso con leche y notas a jengibre. ¡Un boost para tu mañana!",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945493/Salted_caramel_latte_k6oy2z.jpg",
         "name": "Salted caramel latte",
         "description": "Bebida a base de espresso con leche, caramelo y un toque de sal ¡Para un antojo!",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945495/Rose_latte_frio_gogwev.jpg",
         "name": "Rose latte frio",
         "description": "Bebida a base de espresso con leche y notas a petalos de rosa ¡Disfútalo frío!",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945495/Lavanda_latte_frio_wh2z7s.jpg",
         "name": "Lavanda latte frio",
         "description": "Bebida a basé de espresso con leche y un toque de lavanda. ¡Disfrútalo frío!",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945491/Ginger_latte_frio_sxnarl.jpg",
         "name": "Ginger latte frio",
         "description": "Bedida a base de espresso con leche y notas a jengibre. ¡Disfrútalo frío!",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945491/Salted_caramel_latte_frio_ao2pyn.jpg",
         "name": "Salted caramel latte frio",
         "description": "Bebida a base de espresso con leche, caramelo y un toque de sal ¡Disfrútalo frío!",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945489/Momo_Mimosa_jmfqlk.jpg",
         "name": "Momo Mimosa",
         "description": "Bebida refrescante a base de jugo de naranja con un shot de espresso ¿Cuál calor?",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945488/Macadamia_black_tea_abqyse.jpg",
         "name": "Macadamia black tea",
         "description": "Bebida a base de té negro frío con un toque de macadamía y espuma de leche deslactosada",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945488/Spicy_mango_black_tea_averph.jpg",
         "name": "Spicy mango black tea",
         "description": "Bebida a base de té negro frío con un toque de mago con especias y espuma de leche deslactosada",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945485/Lavander_green_tea_habfli.jpg",
         "name": "Lavander green tea",
         "description": "Bebida refrescante con té verde, agua mineralizada, frambuesas y un toque de lavanda",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945485/Rose_green_tea_soda_ikhl6e.jpg",
         "name": "Rose green tea soda",
         "description": "Bebida refrescante con té verde, agua mineralizada, frambuesas naturales y un toque de rosas",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945484/Green_madness_tea_soda_njf6r6.jpg",
         "name": "Green madness tea soda",
         "description": "Bebida refrescante con té verde, agua mineralizada, kiwi natural y un toque de jengibre",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945483/Lavender_green_tea_soda_ospycm.jpg",
         "name": "Lavender green tea soda",
         "description": "Bebida a base de té verde frío con un toque delavanda y espuma de leche deslactosada",
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
         "name": "Felix",
         "description": "",
         "category": "otras bebidas"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
         "name": "Agua",
         "description": "",
         "category": "otras bebidas"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
         "name": "Agua Mineral",
         "description": "",
         "category": "otras bebidas"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
         "name": "Coca Cola",
         "description": "",
         "category": "otras bebidas"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
         "name": "Coca Cola Zero",
         "description": "",
         "category": "otras bebidas"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
         "name": "Jugo del valle",
         "description": "",
         "category": "otras bebidas"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945482/Focaccia_de_papa_lgaan5.jpg",
         "name": "Focaccia de papa",
         "description": "Clásico pan italiano con papa laminada, queso parmesano y aceite de oliva.",
         "category": "alimentos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945480/Baggel_de_queso_y_tomate_nnycxj.jpg",
         "name": "Baggel de queso y tomate",
         "description": "Un clásico, relleno de queso Philadelphia y tomates deshidratados",
         "category": "alimentos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945480/Pan_de_queso_ir1rkd.jpg",
         "name": "Pan de queso",
         "description": "¡Sin gluten! Pan a base de harina de yuca con mezcla de quesos.",
         "category": "alimentos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945479/Croissant_jam%C3%B3n_y_queso_czznio.jpg",
         "name": "Croissant jamón y queso",
         "description": "El clásico rellleno de queso manchego y jamón",
         "category": "alimentos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945478/Chocolatin_rlunis.jpg",
         "name": "Chocolatin",
         "description": "Pan de masa hojaldrada enrollada con barras de chocolate en su interior y crust crujiente por fuera ¡Excelente acompañante!",
         "category": "alimentos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945477/Croissant_wi0kgz.jpg",
         "name": "Croissant",
         "description": "El clásico de textura hojaldrada y crujiente por fuera; suave y mantequilloso por dentro",
         "category": "alimentos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945476/Kouing_amann_rwtdna.jpg",
         "name": "Kouing amann",
         "description": "Pan elaborado con capas de masa con mantequilla hojaldrada y caramelizada.",
         "category": "alimentos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945475/Panqu%C3%A9_de_platano_rd5k3n.jpg",
         "name": "Panqué de platano",
         "description": "Sueve panque con plátano y nueces.",
         "category": "alimentos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945475/Baggel_jh0ic2.jpg",
         "name": "Baggel",
         "description": "Pan crujiente por fuera, tierno por dentro.",
         "category": "alimentos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945474/Dona_creme_brule_gg8shs.jpg",
         "name": "Dona creme brule",
         "description": "Dona con cubierta de creme brulé y relleno de crema francesa",
         "category": "alimentos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945474/Americano_Croissant_h1v75r.jpg",
         "name": "Americano + Croissant",
         "description": "",
         "category": "combos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945474/Americano_frio_Chocolatin_eefuaa.jpg",
         "name": "Americano frio + Chocolatin",
         "description": "",
         "category": "combos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945512/Latte_caliente_Chocolatin_uca88u.jpg",
         "name": "Latte caliente + Chocolatin",
         "description": "",
         "category": "combos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945511/Latte_frio_Chocolatin_ktu8s5.jpg",
         "name": "Latte frio + Chocolatin",
         "description": "",
         "category": "combos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
         "name": "Iced Latte + Yogurt & granola",
         "description": "",
         "category": "combos"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_220,ar_1:1/v1720048842/cap_wkqehm.jpg",
         "name": "Gorra",
         "description": "",
         "category": "tienda"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_220,ar_1:1/v1720048842/shirt_wlxdyl.jpg",
         "name": "T-shirt",
         "description": "",
         "category": "tienda"
     },
     {
-        "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_220,ar_1:1/v1720048842/coffee_cqbxuu.jpg",
         "name": "Café",
         "description": "",
         "category": "tienda"

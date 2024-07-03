@@ -1,5 +1,6 @@
 ---
 import StoreCard from "../components/StoreCard.astro";
+import SoonStore from "../components/SoonStore.astro";
 ---
 
 <section
@@ -22,16 +23,18 @@ import StoreCard from "../components/StoreCard.astro";
       class="mySwiper"
       effect="cards"
       grab-cursor="true"
+      keyboard="true"
+      navigation="true"
     >
-      <swiper-slide> <StoreCard /></swiper-slide>
-      <swiper-slide> <StoreCard /></swiper-slide>
-      <swiper-slide>Slide 3</swiper-slide>
+      <swiper-slide>
+        <StoreCard
+          name="Narvarte"
+          address="Dr. José María Vértiz 867, Col. Narvarte Oriente, Benito Juárez CDMX"
+        /></swiper-slide
+      >
+      <swiper-slide> <SoonStore name="Col. Del Valle" /></swiper-slide>
+      <swiper-slide> <SoonStore name="Roma Norte" /></swiper-slide>
       <swiper-slide>Slide 4</swiper-slide>
-      <swiper-slide>Slide 5</swiper-slide>
-      <swiper-slide>Slide 6</swiper-slide>
-      <swiper-slide>Slide 7</swiper-slide>
-      <swiper-slide>Slide 8</swiper-slide>
-      <swiper-slide>Slide 9</swiper-slide>
     </swiper-container>
 
     <script

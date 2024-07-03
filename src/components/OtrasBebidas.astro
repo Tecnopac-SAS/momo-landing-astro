@@ -1,6 +1,5 @@
 ---
-import Product from "./ProductCard.astro";
-import test from "../../public/images/test.png";
+import Product from "./ProductCard.tsx";
 import data from "../MOCK_DATA.json";
 ---
 
@@ -10,7 +9,7 @@ import data from "../MOCK_DATA.json";
       .filter((item) => item.category === "otras bebidas")
       .map((filteredItem) => (
         <Product
-          imageUrl={test}
+          imageUrl={filteredItem.image}
           name={filteredItem.name}
           description={filteredItem.description}
         />
