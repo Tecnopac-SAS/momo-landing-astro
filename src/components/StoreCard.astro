@@ -4,9 +4,10 @@ import { Image } from "astro:assets";
 interface Props {
   address: string;
   name: string;
+  location: string;
 }
 
-const { name, address } = Astro.props;
+const { name, address, location } = Astro.props;
 ---
 
 <div class="bg-[#EDEBDF] m-auto w-80 p-5 rounded-lg">
@@ -62,7 +63,14 @@ const { name, address } = Astro.props;
     </details>
 
     <div class="flex justify-center pt-2">
-      <button class="bg-[#FF6010] px-4 py-2 rounded-lg">Ir ahora</button>
+      <button class="bg-[#FF6010] px-4 py-2 rounded-lg">
+        <a
+          href={location}
+          target="_blank"
+          rel="noopener noreferer"
+          >Ir ahora</a
+        ></button
+      >
     </div>
   </>
 </div>
