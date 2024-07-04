@@ -6,6 +6,9 @@
   font-display: swap;
 }
 
+html {
+  overflow-x: hidden;
+}
 body {
   background-color: #2e418e;
   color: #edebdf;

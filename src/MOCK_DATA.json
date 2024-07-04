@@ -38,13 +38,13 @@
         "category": "cafe"
     },
     {
-        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945474/Americano_frio_Chocolatin_eefuaa.jpg",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945506/Americano_frio_qodofs.jpg",
         "name": "Americano frio",
         "description": "Bebida a base de espresso con hielos ¡El tradicional pero frío!",
         "category": "cafe"
     },
     {
-        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload//c_crop,w_250,h_250,ar_1:1/c_crop,w_250,h_250,ar_1:1/v1719945505/Latte_frio_ewihy8.jpg",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/c_crop,w_250,h_250,ar_1:1/v1719945505/Latte_frio_ewihy8.jpg",
         "name": "Latte frio",
         "description": "Bebida a base de espresso con leche ¡Perfecto para un día caluroso!",
         "category": "cafe"
