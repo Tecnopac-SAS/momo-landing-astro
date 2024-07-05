@@ -5,13 +5,14 @@ import { Image } from "astro:assets";
 <div>
   <h2 class="text-3xl flex justify-center py-4">Partners</h2>
 
-  <div class="flex gap-x-4 items-center justify-around p-4">
+  <div class="flex-row gap-3 md:flex items-center justify-around p-4">
     <Image
       width={121}
       height={70}
       src="/buna.svg"
       loading="lazy"
       alt="buna"
+      class="m-auto pb-4"
     />
     <Image
       width={156}
@@ -19,6 +20,7 @@ import { Image } from "astro:assets";
       loading="lazy"
       src="/saint.svg"
       alt="saint"
+      class="m-auto pb-4"
     />
     <Image
       width={92}
@@ -26,6 +28,7 @@ import { Image } from "astro:assets";
       loading="lazy"
       src="/exploradores.svg"
       alt="exploradores de café"
+      class="m-auto"
     />
   </div>
 </div>

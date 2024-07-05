@@ -8,10 +8,15 @@
 
 html {
   overflow-x: hidden;
+  width: 100%;
 }
 body {
   background-color: #2e418e;
   color: #edebdf;
   font-family: "Red Hat Display Variable", sans-serif;
   font-weight: 600;
+}
+
+main {
+  width: 100vw;
 }
