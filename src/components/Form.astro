@@ -162,15 +162,17 @@
         for="terms"
         class="text-sm leading-none"
         >Acepta nuestros <a
-          href="#"
+          href="https://momocoffee.mx/terminos-y-condiciones"
           class="underline"
-          rel="ugc"
+          target="_blank"
+          rel="noopener noreferer"
           >Términos y Condiciones</a
         > y nuestra <br />
         <a
-          href="#"
+          href="https://momocoffee.mx/aviso-de-privacidad/"
+          target="_blank"
           class="underline"
-          rel="ugc"
+          rel="noopener noreferer"
           >Política de Privacidad</a
         ></label
       >
@@ -189,12 +191,20 @@
   input[type="file"] {
     display: none;
   }
-
+  input,
+  select,
+  textarea {
+    border: 2px solid white;
+  }
   .label {
     display: inline-block;
     color: white;
     background: #ff6010;
     padding: 5px 10px;
     border-radius: 20px;
+  }
+  input[type="text"],
+  input[type="email"] {
+    height: 50px;
   }
 </style>
