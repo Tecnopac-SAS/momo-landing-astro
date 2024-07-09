@@ -8,7 +8,7 @@
         "category": "cafe"
     },
     {
-        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945474/Americano_Croissant_h1v75r.jpg",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945509/Americano_vlz9dy.jpg",
         "name": "Americano",
         "description": "Hecho al momento con doble shot de espresso",
         "category": "cafe"
@@ -116,7 +116,7 @@
         "category": "especiales"
     },
     {
-        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945495/Lavanda_latte_frio_wh2z7s.jpg",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720543369/LAVANDA_LATTE_rxzcyn.jpg",
         "name": "Lavanda latte",
         "description": "Bebida a basé de espresso con leche y un toque de lavanda. ¡Modo zen!",
         "category": "especiales"
@@ -128,9 +128,15 @@
         "category": "especiales"
     },
     {
-        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945493/Salted_caramel_latte_k6oy2z.jpg",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720544074/SALTED_CARAMEL_LATTE_nfpp0s.jpg",
         "name": "Salted caramel latte",
         "description": "Bebida a base de espresso con leche, caramelo y un toque de sal ¡Para un antojo!",
+        "category": "especiales"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720543025/ROSE_LATTE_v4vpeo.jpg",
+        "name": "Rose latte Caliente",
+        "description": "Bebida a base de espresso con leche y notas a petalos de rosa",
         "category": "especiales"
     },
     {
@@ -200,38 +206,32 @@
         "category": "especiales"
     },
     {
-        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-        "name": "Felix",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720476561/FELIX_MINERAL_nqfare.png",
+        "name": "Agua natural Felix",
         "description": "",
         "category": "otras bebidas"
     },
     {
-        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-        "name": "Agua",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720476561/FELIX_MINERAL_nqfare.png",
+        "name": "Agua mineral Felix",
         "description": "",
         "category": "otras bebidas"
     },
     {
-        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-        "name": "Agua Mineral",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720546680/FELIX_FRAMBUESA_wrowbb.png",
+        "name": "Felix Frambuesa",
         "description": "",
         "category": "otras bebidas"
     },
     {
-        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-        "name": "Coca Cola",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720544731/FELIX_MANZANA_kqpyfy.png",
+        "name": "Felix Manzana",
         "description": "",
         "category": "otras bebidas"
     },
     {
-        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-        "name": "Coca Cola Zero",
-        "description": "",
-        "category": "otras bebidas"
-    },
-    {
-        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-        "name": "Jugo del valle",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720546821/FELLIZ_MARACUYA_gfnhj1.png",
+        "name": "Felix Maracuya",
         "description": "",
         "category": "otras bebidas"
     },
@@ -326,19 +326,19 @@
         "category": "combos"
     },
     {
-        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_220,ar_1:1/v1720048842/cap_wkqehm.jpg",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720476126/MOMO_CAP_ei9zbz.png",
         "name": "Gorra",
         "description": "",
         "category": "tienda"
     },
     {
-        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_220,ar_1:1/v1720048842/shirt_wlxdyl.jpg",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720476049/frente_gra%CC%81fico_azul_pzyxca.png",
         "name": "T-shirt",
         "description": "",
         "category": "tienda"
     },
     {
-        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_220,ar_1:1/v1720048842/coffee_cqbxuu.jpg",
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720475363/COFFEE_BAG_zlyh9p.png",
         "name": "Café",
         "description": "",
         "category": "tienda"

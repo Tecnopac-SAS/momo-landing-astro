@@ -16,7 +16,7 @@ const ProductCard: React.FC<ProductProps> = ({
       <img
         src={imageUrl}
         alt={name}
-        className="rounded-md shadow-2xl"
+        className="rounded-md shadow-2xl max-w-64"
       />
       <div>
         <h4 className="text-lg text-blue-800 font-bold pb-2">{name}</h4>

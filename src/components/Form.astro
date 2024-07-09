@@ -4,7 +4,6 @@
 
 <form
   class="space-y-4 max-w-[500px]"
-  enctype="multipart/form-data"
   method="POST"
 >
   <div class="relative">
@@ -28,6 +27,8 @@
       ></circle>
     </svg>
     <input
+      required
+      name="Nombre"
       class="flex h-10 rounded-md border border-input bg-[#2E418E] px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 pl-12 w-full"
       placeholder="Nombre"
       type="text"
@@ -56,6 +57,8 @@
       <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
     </svg>
     <input
+      required
+      name="correo"
       class="flex h-10 rounded-md border border-input bg-[#2E418E] px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 pl-12 w-full"
       placeholder="Correo"
       type="email"
@@ -87,6 +90,7 @@
     </svg>
 
     <select
+      name="asunto"
       class="flex h-10 w-full items-center justify-between rounded-md border border-input bg-[#2E418E] px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 pl-12"
     >
       <option value="">Seleccione una opción</option>
@@ -134,7 +138,8 @@
       ></path>
     </svg>
     <textarea
-      rows="9"
+      name="message"
+      rows="5"
       class="flex rounded-md border border-input bg-[#2E418E] px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 pl-12 w-full min-h-[100px]"
       placeholder="Mensaje"
     ></textarea>
@@ -146,30 +151,33 @@
       >Seleccionar archivo</label
     >
     <input
+      name="file"
       type="file"
       id="uploadFile"
       class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-[#FF6010] focus:outline-none"
     />
   </div>
   <div class="space-y-2">
-    <div class="flex items-center space-x-2 py-5">
+    <div class="flex items-center space-x-2">
       <input
         type="checkbox"
         id="terms"
+        name="Acept terms"
+        required
         class="h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
       />
       <label
         for="terms"
         class="text-sm leading-none"
         >Acepta nuestros <a
-          href="https://momocoffee.mx/terminos-y-condiciones"
+          href="/terms"
           class="underline"
           target="_blank"
           rel="noopener noreferer"
           >Términos y Condiciones</a
         > y nuestra <br />
         <a
-          href="https://momocoffee.mx/aviso-de-privacidad/"
+          href="/privacy"
           target="_blank"
           class="underline"
           rel="noopener noreferer"
@@ -203,8 +211,8 @@
     padding: 5px 10px;
     border-radius: 20px;
   }
-  input[type="text"],
+  /* input[type="text"],
   input[type="email"] {
     height: 50px;
-  }
+  } */
 </style>
