@@ -12,7 +12,7 @@ const ProductCard: React.FC<ProductProps> = ({
   description,
 }) => {
   return (
-    <div className="w-72 h-60">
+    <div className="w-72 h-64">
       <img
         src={imageUrl}
         alt={name}
