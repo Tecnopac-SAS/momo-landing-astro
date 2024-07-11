@@ -1,6 +1,5 @@
 ---
-import StoreCard from "../components/StoreCard.astro";
-import SoonStore from "../components/SoonStore.astro";
+import Carrusel from "./Carrusel.astro";
 ---
 
 <section
@@ -17,26 +16,5 @@ import SoonStore from "../components/SoonStore.astro";
   <p class="text-blue-800 text-center font-[Stacion] font-normal text-2xl">
     Encuentra tu café MOMO más cercano. <br /> Explora nuestras ubicaciones
   </p>
-
-  <!-- <section class="flex">
-    <StoreCard
-      address="dsasdda"
-      name="dadadsad"
-      location="dadasdsad"
-    />
-    <SoonStore name="soon" />
-    <SoonStore name="soon" />
-  </section> -->
+  <Carrusel />
 </section>
-
-<scrip
-  src="https://unpkg.com/@egjs/flicking/dist/flicking.pkgd.min.js"
-  crossorigin="anonymous"
->
-</scrip>
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/@egjs/flicking/dist/flicking.css"
-  crossorigin="anonymous"
-/>
-<script></script>

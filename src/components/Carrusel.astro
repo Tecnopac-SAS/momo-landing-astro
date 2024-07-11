@@ -1,0 +1,40 @@
+---
+import StoreCard from "../components/StoreCard.astro";
+import SoonStore from "../components/SoonStore.astro";
+---
+
+<swiper-container
+  class="mySwiper"
+  navigation="true"
+  pagination="false"
+  effect="coverflow"
+  grab-cursor="true"
+  centered-slides="true"
+  slides-per-view="auto"
+  coverflow-effect-rotate="50"
+  coverflow-effect-stretch="0"
+  coverflow-effect-depth="100"
+  coverflow-effect-modifier="1"
+  coverflow-effect-slide-shadows="true"
+>
+  <swiper-slide>
+    <StoreCard
+      name="Narvarte"
+      address="Dr. José María Vértiz 867, Col. Narvarte Oriente, Benito Juárez CDMX"
+      location="https://maps.app.goo.gl/CaWHZ2kj5az8QrJ99"
+    />
+  </swiper-slide>
+  <swiper-slide>
+    <SoonStore name="fafasf" />
+  </swiper-slide>
+  <swiper-slide>
+    <SoonStore name="fafasf" />
+  </swiper-slide>
+  <swiper-slide>
+    <SoonStore name="fafasf" />
+  </swiper-slide>
+</swiper-container>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"
+></script>
