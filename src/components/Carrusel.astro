@@ -3,38 +3,39 @@ import StoreCard from "../components/StoreCard.astro";
 import SoonStore from "../components/SoonStore.astro";
 ---
 
-<swiper-container
-  class="mySwiper"
-  pagination="false"
-  navigation="true"
-  keyboard="true"
-  loop="true"
-  effect="coverflow"
-  grab-cursor="true"
-  centered-slides="true"
-  slides-per-view="auto"
-  space-between="30"
-  coverflow-effect-rotate="0"
-  coverflow-effect-stretch="0"
-  coverflow-effect-depth="100"
-  coverflow-effect-modifier="1"
-  coverflow-effect-slide-shadows="false"
->
-  <swiper-slide>
-    <StoreCard
-      name="Narvarte"
-      address="Dr. José María Vértiz 867, Col. Narvarte Oriente, Benito Juárez CDMX"
-      location="https://maps.app.goo.gl/CaWHZ2kj5az8QrJ99"
-    />
-  </swiper-slide>
-  <swiper-slide>
-    <SoonStore name="Col. del Valle" />
-  </swiper-slide>
-  <swiper-slide>
-    <SoonStore name="Roma Norte" />
-  </swiper-slide>
-</swiper-container>
-
+<div class="container">
+  <swiper-container
+    class="mySwiper"
+    pagination="false"
+    navigation="true"
+    keyboard="true"
+    loop="true"
+    effect="coverflow"
+    grab-cursor="true"
+    centered-slides="true"
+    slides-per-view="auto"
+    space-between="30"
+    coverflow-effect-rotate="0"
+    coverflow-effect-stretch="0"
+    coverflow-effect-depth="100"
+    coverflow-effect-modifier="1"
+    coverflow-effect-slide-shadows="false"
+  >
+    <swiper-slide>
+      <StoreCard
+        name="Narvarte"
+        address="Dr. José María Vértiz 867, Col. Narvarte Oriente, Benito Juárez CDMX"
+        location="https://maps.app.goo.gl/CaWHZ2kj5az8QrJ99"
+      />
+    </swiper-slide>
+    <swiper-slide>
+      <SoonStore name="Col. del Valle" />
+    </swiper-slide>
+    <swiper-slide>
+      <SoonStore name="Roma Norte" />
+    </swiper-slide>
+  </swiper-container>
+</div>
 <style>
   swiper-container {
     width: 100%;
