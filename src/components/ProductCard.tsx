@@ -19,7 +19,9 @@ const ProductCard: React.FC<ProductProps> = ({
         className="rounded-md shadow-2xl h-40 w-40"
       />
       <div>
-        <h4 className="text-lg text-blue-800 font-bold pb-2">{name}</h4>
+        <h4 className="text-lg text-blue-800 font-bold pb-2 capitalize">
+          {name}
+        </h4>
         <p className="text-black text-md">{description}</p>
       </div>
     </div>
