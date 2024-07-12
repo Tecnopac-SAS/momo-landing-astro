@@ -4,59 +4,46 @@ import SoonStore from "../components/SoonStore.astro";
 ---
 
 <swiper-container
-  class="mySwiper pl-28"
-  space-between="30"
+  class="mySwiper"
+  pagination="false"
+  navigation="true"
+  effect="coverflow"
+  grab-cursor="true"
+  centered-slides="true"
   slides-per-view="auto"
-  pagination="true"
-  pagination-clickable="true"
+  coverflow-effect-rotate="0"
+  coverflow-effect-stretch="0"
+  coverflow-effect-depth="100"
+  coverflow-effect-modifier="1"
+  coverflow-effect-slide-shadows="false"
 >
-  <swiper-slide><SoonStore name="Col. Del Valle" /></swiper-slide>
-  <swiper-slide><SoonStore name="Roma Norte" /></swiper-slide>
-  <swiper-slide
-    ><StoreCard
+  <swiper-slide>
+    <StoreCard
       name="Narvarte"
       address="Dr. José María Vértiz 867, Col. Narvarte Oriente, Benito Juárez CDMX"
       location="https://maps.app.goo.gl/CaWHZ2kj5az8QrJ99"
-    /></swiper-slide
-  >
+    />
+  </swiper-slide>
+  <swiper-slide>
+    <SoonStore name="Col. del Valle" />
+  </swiper-slide>
+  <swiper-slide>
+    <SoonStore name="Roma Norte" />
+  </swiper-slide>
 </swiper-container>
 
 <style>
   swiper-container {
     width: 100%;
-    height: 100%;
-
     padding-top: 30px;
   }
 
   swiper-slide {
-    border-radius: 12px;
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  swiper-slide {
-    max-width: 20%;
-    width: 20%;
-  }
-
-  swiper-slide:nth-child(2n) {
-    width: 20%;
-  }
-
-  swiper-slide:nth-child(3n) {
-    width: 20%;
+    background-position: center;
+    background-size: cover;
+    width: 330px;
+    height: 580px;
+    margin-right: 20px;
   }
 </style>
 

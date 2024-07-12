@@ -10,7 +10,7 @@ interface Props {
 const { name, address, location } = Astro.props;
 ---
 
-<div class="bg-[#EDEBDF] m-auto w-80 p-5 rounded-lg">
+<div class="bg-[#EDEBDF] m-auto w-80 h-[580px] p-5 rounded-lg">
   <Image
     loading="eager"
     width={300}
@@ -21,56 +21,53 @@ const { name, address, location } = Astro.props;
   />
 
   <h3 class="text-xl uppercase text-black font-bold text-center">{name}</h3>
-  <span class="text-green-400 text-sm text-center block">Abierta</span>
+  <span class="text-green-400 text-sm text-center block pb-2">Abierta</span>
 
-  <>
-    <div class="flex justify-center gap-x-2">
-      <img
-        src="/locate.svg"
-        alt="locación"
-      />
-      <!-- <span class="text-black font-thin">1km</span> -->
-    </div>
-    <p class="text-black font-thin text-center">
-      {address}
-    </p>
+  <div class="flex justify-center gap-x-2">
+    <img
+      src="/locate.svg"
+      alt="locación"
+    />
+  </div>
+  <p class="text-black font-thin text-center">
+    {address}
+  </p>
 
-    <details class="cursor-pointer">
-      <summary>
-        <div class="flex justify-center">
-          <img
-            src="/clock.svg"
-            alt="horarios"
-          />
-          <span class="text-black px-2">Horarios</span>
-          <img
-            src="/arrow-down.svg"
-            alt="mas"
-          />
-        </div>
-      </summary>
-      <ol
-        class="flex text-[#777672] flex-col justify-center w-fit m-auto gap-y-1 pt-2 text-sm"
-      >
-        <li class="hover:text-orange-500">Lunes 8 am - 7 p.m</li>
-        <li class="hover:text-orange-500">Martes 8 a.m - 7 p.m</li>
-        <li class="hover:text-orange-500">Miercoles 8 a.m - 7 pm</li>
-        <li class="hover:text-orange-500">Jueves 8 a.m - 7 p.m</li>
-        <li class="hover:text-orange-500">Viernes 8 a.m - 7 p.m</li>
-        <li class="hover:text-orange-500">Sabado 8 a.m - 6 p.m</li>
-        <li class="hover:text-orange-500">Domingo 9 a.m - 6 p.m</li>
-      </ol>
-    </details>
+  <details class="cursor-pointer">
+    <summary>
+      <div class="flex justify-center">
+        <img
+          src="/clock.svg"
+          alt="horarios"
+        />
+        <span class="text-black px-2">Horarios</span>
+        <img
+          src="/arrow-down.svg"
+          alt="mas"
+        />
+      </div>
+    </summary>
+    <ol
+      class="flex text-[#777672] flex-col justify-center w-fit m-auto gap-y-1 text-xs"
+    >
+      <li class="hover:text-orange-500">Lunes 8 am - 7 p.m</li>
+      <li class="hover:text-orange-500">Martes 8 a.m - 7 p.m</li>
+      <li class="hover:text-orange-500">Miercoles 8 a.m - 7 pm</li>
+      <li class="hover:text-orange-500">Jueves 8 a.m - 7 p.m</li>
+      <li class="hover:text-orange-500">Viernes 8 a.m - 7 p.m</li>
+      <li class="hover:text-orange-500">Sabado 8 a.m - 6 p.m</li>
+      <li class="hover:text-orange-500">Domingo 9 a.m - 6 p.m</li>
+    </ol>
+  </details>
 
-    <div class="flex justify-center pt-2">
-      <button class="bg-[#FF6010] px-4 py-2 rounded-lg">
-        <a
-          href={location}
-          target="_blank"
-          rel="noopener noreferer"
-          >Ir ahora</a
-        ></button
-      >
-    </div>
-  </>
+  <div class="flex justify-center pt-2">
+    <button class="bg-[#FF6010] px-4 py-1 rounded-lg">
+      <a
+        href={location}
+        target="_blank"
+        rel="noopener noreferer"
+        >Ir ahora</a
+      ></button
+    >
+  </div>
 </div>
