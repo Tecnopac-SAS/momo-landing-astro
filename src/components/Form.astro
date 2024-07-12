@@ -152,6 +152,7 @@
       for="uploadFile"
       >Seleccionar archivo</label
     >
+    <span id="file-chosen">Ningun archivo</span>
     <input
       name="Archivo"
       type="file"
@@ -213,8 +214,16 @@
     padding: 5px 10px;
     border-radius: 20px;
   }
-  /* input[type="text"],
-  input[type="email"] {
-    height: 50px;
-  } */
 </style>
+<script>
+  const actualBtn = document.getElementById(
+    "uploadFile"
+  ) as HTMLInputElement | null;
+  const fileChosen = document.getElementById("file-chosen");
+
+  actualBtn?.addEventListener("change", function () {
+    if (fileChosen && this.files && this.files[0]) {
+      fileChosen.textContent = this.files[0].name;
+    }
+  });
+</script>
