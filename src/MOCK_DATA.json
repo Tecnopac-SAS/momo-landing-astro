@@ -1,8 +1,6 @@
 [
     {
         "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945510/Expresso_xn2g19.jpg",
-        "width": 270,
-        "height": 270,
         "name": "Expresso",
         "description": "Doble shot de nuestra mezcla especial MOMO ¡Para los puristas!",
         "category": "cafe"
@@ -262,7 +260,7 @@
     {
         "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945478/Chocolatin_rlunis.jpg",
         "name": "Chocolatin",
-        "description": "Pan de masa hojaldrada enrollada con barras de chocolate en su interior y crust crujiente por fuera ¡Excelente acompañante!",
+        "description": "Pan de masa hojaldrada enrollada con barras de chocolate en su interior y crust crujiente por fuera.",
         "category": "alimentos"
     },
     {
@@ -296,6 +294,48 @@
         "category": "alimentos"
     },
     {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720797586/BARRA_GRANOLA_ubejzf.png",
+        "name": "Barra Granola",
+        "description": "",
+        "category": "alimentos"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720797586/A_MORA_TI_1_i9nsur.png",
+        "name": "Amor a Ti 1",
+        "description": "",
+        "category": "alimentos"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720797585/A_MORA_TI_2_ae51d8.png",
+        "name": "Amor a Ti 2",
+        "description": "",
+        "category": "alimentos"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720797585/A_MORA_TI_3_vvtcbj.png",
+        "name": "Amor a Ti 3",
+        "description": "",
+        "category": "alimentos"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720797587/A_MORA_TI_4_rtit3u.png",
+        "name": "Amor a Ti 4",
+        "description": "",
+        "category": "alimentos"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720797586/A_MORA_TI_5_vhplxv.png",
+        "name": "Amor a Ti 5",
+        "description": "",
+        "category": "alimentos"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720797586/A_MORA_TI_5_vhplxv.png",
+        "name": "Amor a Ti 6",
+        "description": "",
+        "category": "alimentos"
+    },
+    {
         "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/c_crop,w_250,h_250,ar_1:1/v1719945474/Americano_Croissant_h1v75r.jpg",
         "name": "Americano + Croissant",
         "description": "",
@@ -320,12 +360,6 @@
         "category": "combos"
     },
     {
-        "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-        "name": "Iced Latte + Yogurt & granola",
-        "description": "",
-        "category": "combos"
-    },
-    {
         "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720476126/MOMO_CAP_ei9zbz.png",
         "name": "Gorra",
         "description": "",
@@ -333,13 +367,49 @@
     },
     {
         "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720476049/frente_gra%CC%81fico_azul_pzyxca.png",
-        "name": "T-shirt",
+        "name": "T-shirt Asul",
+        "description": "",
+        "category": "tienda"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720799010/espalda_gra%CC%81fico_azul_zms8tm.png",
+        "name": "T-shirt back Asul",
+        "description": "",
+        "category": "tienda"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720798944/frente.gra%CC%81ficos_naranjas_c8bodx.png",
+        "name": "T-shirt Naranja",
+        "description": "",
+        "category": "tienda"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720799010/espalda_gra%CC%81fico_naranja_esuqqf.png",
+        "name": "T-shirt back Naranja",
         "description": "",
         "category": "tienda"
     },
     {
         "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720475363/COFFEE_BAG_zlyh9p.png",
         "name": "Café",
+        "description": "",
+        "category": "tienda"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720798646/TOTE_SKETCH_vtlhxw.png",
+        "name": "Tote Bag Sketch",
+        "description": "",
+        "category": "tienda"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720798646/TOTE_CLASSIC_kf4gtw.png",
+        "name": "Tote Bag Classic",
+        "description": "",
+        "category": "tienda"
+    },
+    {
+        "image": "https://res.cloudinary.com/dwjzdkskc/image/upload/v1720799275/MOMOCCINO_rvwq2d.jpg",
+        "name": "Momoccino",
         "description": "",
         "category": "tienda"
     }
