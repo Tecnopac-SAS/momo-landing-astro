@@ -22,7 +22,7 @@ const ProductCard: React.FC<ProductProps> = ({
         <h4 className="text-lg text-blue-800 font-bold pb-2 capitalize">
           {name}
         </h4>
-        <p className="text-black text-md">{description}</p>
+        <p className="text-black text-md font-normal">{description}</p>
       </div>
     </div>
   );
